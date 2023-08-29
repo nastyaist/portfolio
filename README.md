@@ -9,10 +9,10 @@
 
 В портфолио приведены примеры составленных мною требований к модулям:
 - Этап прохождения собеседований (interviewing stage).
-- Загрузка ответов и вопросов на платформу.
+- Загрузка ответов и вопросов на платформу (uploading questions and answers to the website).
 
 # 2. REST API test-cases
-[REST API test-cases](https://github.com/nastyaist/portfolio/tree/main/REST%20API%20test-cases) - тестирование четырёх эндпойнтов (post, delete, get по id, get списка) для json-объекта "Жанр игры" (GenreGames) маркетплейса видеоигр.
+Для маркетплейса видеоигр необходимо было протестировать бэкэнд. В портфолио приведены примеры [REST API тест-кейсов](https://github.com/nastyaist/portfolio/tree/main/REST%20API%20test-cases) для 4-х эндпойнтов (post, delete, get по id, get списка) для json-объекта "Жанр игры" (GenreGames) маркетплейса видеоигр.
 ```
 {
 id	integer
