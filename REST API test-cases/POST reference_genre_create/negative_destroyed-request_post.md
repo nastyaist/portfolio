@@ -1,0 +1,53 @@
+POST destroyed request
+
+Предварительные условия
+--
+
+1. [Информация по авторизации](https://github.com/victoretc/GSPOTtestingdocumentation/blob/main/games/Authorization_data.md).
+2. Тестовые данные:
+
+запрос с ошибками в синтаксисе, см. п. 3
+
+Действия в Postman
+--
+1. Создать запрос
+- метод - POST
+- URL - games.alpha.g-spot.website/api/v1/reference/genre/
+
+2. Вкладка Authorization
+ввести данные по авторизации - см. информацию по авторизации в предварительных условиях.
+
+3. Вкладка Body
+- выбрать тип raw
+- выбрать формат JSON
+- тело запроса:
+
+```json
+{
+  "name": "any_name,
+  "id": "<integer>"
+
+```
+
+4. Отправить запрос
+
+Ожидаемый результат
+--
+
+1. Status ответа: 400 Bad Request.
+2. В ответ вернулось сообщение:
+
+```
+{
+    "detail": "JSON parse error - Invalid control character at: line 2 column 21 (char 22)"
+}
+```
+
+Автор: Анастасия
+
+Прохождение тест-кейса:
+----------------
+
+|**Дата**|**Время**|**Результат**|**Имя**|**Баг № Trello**|
+| :-: | :-: | :-: | :-: | :-: |
+|27.06.2023|19:15|Passed|Анастасия|-|

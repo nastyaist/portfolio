@@ -1,0 +1,37 @@
+DEL - positive existed genre without product (genre that hasn't been assigned to any product)
+
+Удаление существующего жанра, который не присвоен ни одному продукту.
+===
+
+Предварительные условия
+--
+1. [Информация по авторизации](https://github.com/victoretc/GSPOTtestingdocumentation/blob/main/games/Authorization_data.md).
+2. В БД есть жанр c name = "action" и id = "431"
+3. В БД нет игры, которая привязана к жанру "action"
+
+Действия в Postman
+--
+1. Создать запрос
+- метод - GET
+- URL - games.alpha.g-spot.website/api/v1/reference/genre/:id/
+
+2. Вкладка Params / таблица Path Variables
+id = 431
+
+3. Вкладка Authorization
+ввести данные по авторизации - см. информацию по авторизации в предварительных условиях.
+
+4. Отправить запрос
+
+Ожидаемый результат
+--
+1. Status ответа: 204 No Content.
+
+Автор: Анастасия
+
+Прохождение тест-кейса:
+----------------
+
+|**Дата**|**Время**|**Результат**|**Имя**|**Баг № Trello**|
+| :-: | :-: | :-: | :-: | :-: |
+|10-07-2023|18:01|PASSED|Анастасия||
