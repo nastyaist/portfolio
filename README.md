@@ -12,7 +12,7 @@
 - Загрузка ответов и вопросов на платформу (uploading questions and answers to the website).
 
 # 2. REST API test-cases
-Для маркетплейса видеоигр необходимо было протестировать бэкэнд. В портфолио приведены примеры [REST API тест-кейсов](https://github.com/nastyaist/portfolio/tree/main/REST%20API%20test-cases) для 4-х эндпойнтов (post, delete, get по id, get списка) для json-объекта "Жанр игры" (GenreGames).
+Для маркетплейса видеоигр необходимо было протестировать бэкэнд. В портфолио приведены примеры REST API тест-кейсов для 4-х эндпойнтов (post, delete, get по id, get списка) для json-объекта "Жанр игры" (GenreGames).
 ```
 {
 id	integer
