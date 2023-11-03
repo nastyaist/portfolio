@@ -12,7 +12,7 @@
 - Загрузка ответов и вопросов на платформу (uploading questions and answers to the website).
 
 
-# 2. REST API test-cases
+# 2. API test-cases - GenreGames
 Для маркетплейса видеоигр необходимо было протестировать бэкэнд. В портфолио приведены примеры REST API тест-кейсов для 4-х эндпойнтов (post, delete, get по id, get списка) для json-объекта "Жанр игры" (GenreGames).
 ```
 {
@@ -27,7 +27,7 @@ name*	string
 ```
 
 # 3. API test-cases - Authorization
-[API test-cases - Authorization](https://github.com/nastyaist/portfolio/tree/main/REST%20API%20test-cases) - тестирование эндпойнта POST /auth/login для двух пользователей - юзер и админ, проверка выданных прав.
+[API test-cases - Authorization](https://github.com/nastyaist/portfolio/tree/main/API%20test-cases%20-%20Authorization) - тестирование эндпойнта POST /auth/login для двух пользователей - юзер и админ, проверка выданных прав.
 ```
 {
   "email": "string",
