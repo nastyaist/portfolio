@@ -11,8 +11,9 @@
 - Этап прохождения собеседований (interviewing stage).
 - Загрузка ответов и вопросов на платформу.
 
+
 # 2. REST API test-cases
-[REST API test-cases](https://github.com/nastyaist/portfolio/tree/main/REST%20API%20test-cases) - тестирование четырёх эндпойнтов (post, delete, get по id, get списка) для json-объекта "Жанр игры" (GenreGames) маркетплейса видеоигр.
+Для маркетплейса видеоигр необходимо было протестировать бэкэнд. В портфолио приведены примеры REST API тест-кейсов для 4-х эндпойнтов (post, delete, get по id, get списка) для json-объекта "Жанр игры" (GenreGames).
 ```
 {
 id	integer
@@ -25,5 +26,11 @@ name*	string
 }
 ```
 
-P. S. [Swagger всего проекта](https://games.alpha.g-spot.website/swagger/). 
-
+# 3. API test-cases - Authorization
+[API test-cases - Authorization](https://github.com/nastyaist/portfolio/tree/main/REST%20API%20test-cases) - тестирование эндпойнта POST /auth/login для двух пользователей - юзер и админ, проверка выданных прав.
+```
+{
+  "email": "string",
+  "password": "string"
+}
+```
